@@ -4,7 +4,7 @@ import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
 import { DatabaseServer } from "@spt/servers/DatabaseServer";
 import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 
-class SetupQuestUpdate implements IPostDBLoadMod
+class Mod implements IPostDBLoadMod
 {
     public postDBLoad(container: DependencyContainer): void
     {
@@ -27,4 +27,4 @@ class SetupQuestUpdate implements IPostDBLoadMod
     }
 }
 
-export const setupQuestUpdate = new SetupQuestUpdate();
+export const mod = new Mod();
