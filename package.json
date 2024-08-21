@@ -6,7 +6,7 @@
     "loadAfter": [],
     "incompatibilities": [],
     "isBundleMod": false,
-    "main": "src/setupQuestUpdate.js",
+    "main": "src/mod.js",
     "scripts": {
         "setup": "npm i",
         "build": "node ./build.mjs",
